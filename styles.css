@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    height: 90vh;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.item1{
+    background-color: blue;
+    grid-column: span 2;
+    text-align: center;
+    justify-items: center;
+}
+.item2{
+    background-color: aqua;
+    grid-row: span 2;
+    justify-items: center;
+    text-align: center;
+}
+.item3{
+    background-color: blueviolet;
+    grid-column: span 2;
+    justify-items: center;
+    text-align: center;
+}
+.item4{
+    background-color: chartreuse;
+    grid-column: span 3;
+}
+.item{
+    background-color: chocolate;
+    grid-column: span 3;
+}
